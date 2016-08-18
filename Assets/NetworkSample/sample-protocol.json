@@ -1,0 +1,13 @@
+{
+  "name":"SampleProtocol",
+  "messages":{
+    "UpdatePositionPacket":{
+      "fields" : [
+        {
+          "type":"Vector3",
+          "name":"position"
+        }
+      ]
+    }
+  }
+}
