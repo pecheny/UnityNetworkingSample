@@ -16,7 +16,7 @@
 
  The `Config` also takes illustrative role. In real project you may want to put configuration in external file so you would able to configure same build for different PCs.
 
-_Protobuf_. (and) is a very fast and compact way of serialization. In Unity we would use [.NET implementation](https://github.com/mgravell/protobuf-net).
+_Protobuf_ is a very fast and compact way of serialization. In Unity we would use [.NET implementation](https://github.com/mgravell/protobuf-net).
 In comparison with some other serializers (like JSON) it has some limitation.
 You need to define format of all packets you want to serialize in the following way:
 
